@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<url><loc>http://clienteincognito.cl/</loc><changefreq>monthly</changefreq><priority>1.00</priority></url>
+<url><loc>http://clienteincognito.cl/enfoque</loc><changefreq>monthly</changefreq><priority>0.85</priority></url>
+<url><loc>http://clienteincognito.cl/estudios</loc><changefreq>monthly</changefreq><priority>0.85</priority></url>
+<url><loc>http://clienteincognito.cl/clientes</loc><changefreq>monthly</changefreq><priority>0.85</priority></url>
+<url><loc>http://clienteincognito.cl/contacto</loc><changefreq>monthly</changefreq><priority>0.85</priority></url>
+<url><loc>http://clienteincognito.cl/trabajo</loc><changefreq>monthly</changefreq><priority>0.85</priority></url> 
+<url><loc>http://clienteincognito.cl/assistance</loc><changefreq>monthly</changefreq><priority>0.69</priority></url>
+<url><loc>http://clienteincognito.cl/inside</loc><changefreq>monthly</changefreq><priority>0.69</priority></url>
+<url><loc>http://clienteincognito.cl/encuestas</loc><changefreq>monthly</changefreq><priority>0.69</priority></url>
+<url><loc>http://clienteincognito.cl/customer_feedback</loc><changefreq>monthly</changefreq><priority>0.69</priority></url>
+<url><loc>http://clienteincognito.cl/monitoreo</loc><changefreq>monthly</changefreq><priority>0.69</priority></url>
+<url><loc>http://clienteincognito.cl/checkpoint</loc><changefreq>monthly</changefreq><priority>0.69</priority></url> 
+</urlset>

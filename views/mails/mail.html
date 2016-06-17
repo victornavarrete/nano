@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<body>
+<style type="text/css" media="screen">
+.e_temp{ 
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 14px;
+	margin: 20px auto; 
+	width:520px; 
+	padding: 0px;
+	border: none;
+	color: #444;
+} 
+.e_temp th, 
+.e_temp td{
+	padding: 10px;
+}  
+.header{
+	background: white;
+	color:  #0079bb; 
+	text-align:center;
+	border-bottom: 1px solid #0079bb;
+}  
+
+.header img{
+	height:80px;
+	margin-bottom: 15px;
+}  
+</style>
+
+<table class="e_temp"  > 
+	<thead>
+		<tr>
+			<th class="header">
+				 <img src="{{logo}}">
+				 <h1>{{web}}</h1>
+				 <p><strong>Contacto</strong></p> 
+			</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td> 
+
+				<p>
+				Buen día, Don/ña <b>{{nombre}}</b>, Ud. ha solicitado contacto e información el ({{fecha}}).
+				</p>
+
+				<p>
+				Email : <b>{{email}}</b>  <br>
+				Fono : <b>{{fono}}</b>  <br>
+				Empresa :<b>{{empresa}}</b>  <br>
+				</p>
+
+				<p>
+				Ha escrito : <b>{{mensaje}}</b>  <br> 
+				</p> 
+
+				<br>
+				<p>
+				Nos comunicaremos lo antes posible con Ud. Buen día.
+				</p>
+
+				<hr>
+
+				<p>También puede contactarnos en: <a href="mailto:{{email_web}} " target="_top"> {{email_web}} </a> 
+				<br>Teléfono: <b>{{phone_web}}</b>
+				<br>Dirección: <b>{{address_web}}</b></p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+</body>
+</html>

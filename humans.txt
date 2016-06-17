@@ -1,0 +1,14 @@
+﻿# humanstxt.org/
+# The humans responsible & technology
+
+/* SITE */
+Company : Cliente Incógnito
+Web: www.clienteincognito.cl
+Description : WEB
+Standards: HTML5, CSS3, HTML5, PHP 
+
+/* TEAM */ 
+Victor Navarrete - Diseñador y Desarrollador Web - @vitoco_nava
+
+/* WEB DEVELOP */
+Victor Navarrete - Diseñador y Desarrollador Web - @vitoco_nava
