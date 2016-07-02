@@ -2,9 +2,9 @@
 <html lang="es">
 <head>
   
-  <title><?php echo $company_name ?> - Convenio </title> 
+  <title><?php echo strip_tags($company_name) ?> - Convenio </title> 
 
-  <meta property="og:title" name="title" content="<?php echo $company_name ?> - Convenio">
+  <meta property="og:title" name="title" content="<?php echo strip_tags( $company_name) ?> - Convenio">
   <meta property="og:description" name="description"  content="Servicios de Capacitación y Formación.">
   <meta name="twitter:card" content="summary">
 

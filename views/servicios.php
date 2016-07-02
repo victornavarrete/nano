@@ -2,9 +2,9 @@
 <html lang="es">
 <head>
   
-  <title><?php echo $company_name ?> - Servicios </title> 
+  <title><?php echo strip_tags($company_name) ?> - Servicios </title> 
 
-  <meta property="og:title" name="title" content="<?php echo $company_name ?> - Servicios">
+  <meta property="og:title" name="title" content="<?php echo strip_tags($company_name) ?> - Servicios">
   <meta property="og:description" name="description"  content=">Desarrollamos productos relevantes de apoyo a la gestión.">
   <meta name="twitter:card" content="summary">
 

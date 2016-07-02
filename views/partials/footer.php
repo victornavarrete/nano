@@ -20,7 +20,7 @@
         <div class="w-col w-col-4 w-col-small-4">
           <h4 class="footer-heading">Enlaces</h4>
           <ul class="w-list-unstyled">
-            <li class="footer-list-item"><a href="http://www.gpavirtual.cl/campus/" target="_blank" class="footer-link">Campus Virtual</a>
+            <li class="footer-list-item"><a href="http://www.academiadeservicios.cl/moodle/" target="_blank" class="footer-link">Campus Virtual</a>
             </li>
             <li class="footer-list-item"><a href="#" class="footer-link">Linkedin</a>
             </li>

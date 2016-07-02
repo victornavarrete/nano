@@ -2,7 +2,7 @@
 
 <link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/css/normalize.css'); ?>">
 <link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/css/webflow.css'); ?>">
-<link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/css/gpa.webflow.css'); ?>"> 
+<link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/css/as.webflow.css'); ?>"> 
   
 <script type="text/javascript" src="<?php echo base_url('assets/js/modernizr.js'); ?>"></script>
 

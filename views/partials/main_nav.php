@@ -6,7 +6,7 @@
       </div>
       
       <a href="/" class="w-nav-brand brand"><img src="/assets/images/logo.png" class="header-logo"></a>
-      <a href="http://www.gpavirtual.cl/campus/" target="_blank" class="w-inline-block w-hidden-main login-btn"></a>
+      <a href="http://www.academiadeservicios.cl/moodle/" target="_blank" class="w-inline-block w-hidden-main login-btn"></a>
 
       <nav role="navigation" class="w-nav-menu main-menu">
 
@@ -18,7 +18,7 @@
         <a href="clientes" class="w-nav-link main-link">Clientes</a>
         <a href="contacto" class="w-nav-link main-link">Contacto</a>
 
-        <a href="http://www.gpavirtual.cl/campus/" target="_blank" class="w-nav-link main-link main-link-bordered">Ingreso al Campus</a>
+        <a href="http://www.academiadeservicios.cl/moodle/" target="_blank" class="w-nav-link main-link main-link-bordered">Ingreso al Campus</a>
 
       </nav>
     </div>

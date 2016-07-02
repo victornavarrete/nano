@@ -150,7 +150,7 @@ background: #0079bb;
 
 .footer-logo {
   display: block;
-  height: 50px;
+  height: 42px;
   margin-right: auto;
   margin-bottom: 20px;
   margin-left: auto;
@@ -218,7 +218,7 @@ background: #0079bb;
   background-image: -webkit-linear-gradient(270deg, hsla(0, 0%, 100%, .7), hsla(0, 0%, 100%, .7)), url('../images/depositphotos_10250809_original.jpg');
   background-image: linear-gradient(180deg, hsla(0, 0%, 100%, .7), hsla(0, 0%, 100%, .7)), url('../images/depositphotos_10250809_original.jpg');
   background-position: 0px 0px, 50% 50%;
-  background-size: auto, cover;
+  background-size:  cover;
   background-attachment: scroll, fixed;
 }
 
@@ -330,45 +330,36 @@ background: #0079bb;
 .slider-title {
   margin-top: 30px;
   margin-bottom: 15px;
-  font-size: 30px;
-  line-height: 34px;
+  font-size: 28px;
+  line-height: 32px;
   font-weight: 600;
   letter-spacing: -1px;
 }
-
+ 
 .slider-1 {
-  position: relative;
-  height: 100%;
-  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/depositphotos_24652487_original.jpg');
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/depositphotos_24652487_original.jpg');
-  background-position: 0px 0px, 50% 50%;
-  background-size: auto, cover;
-  background-repeat: repeat, no-repeat;
+  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/depositphotos_21219731_original.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/depositphotos_21219731_original.jpg');
+  background-position: 0px 0px, 50% 60%;
+  background-size:   cover;
+  background-repeat: no-repeat;
 }
 
 .slider-2 {
-  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/depositphotos_9347645_original.jpg');
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/depositphotos_9347645_original.jpg');
-  background-position: 0px 0px, 50% 100%;
-  background-size: auto, cover;
-  background-repeat: repeat, no-repeat;
+  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/depositphotos_10250809_original.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/depositphotos_10250809_original.jpg');
+  background-position: 0px 0px, 30% 30% ;
+  background-size:   cover;
+  background-repeat: no-repeat;
 }
 
 .slider-3 {
-  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/depositphotos_11629409_original.jpg');
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/depositphotos_11629409_original.jpg');
-  background-position: 0px 0px, 100% 0px;
-  background-size: auto, cover;
-  background-repeat: repeat, no-repeat;
+  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/header-work.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/header-work.jpg');
+  background-position: 0px 0px, 40% 30%;
+  background-size:   cover;
+  background-repeat: no-repeat;
 }
 
-.slider-4 {
-  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/depositphotos_21219731_original.jpg');
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/depositphotos_21219731_original.jpg');
-  background-position: 0px 0px, 100% 50%;
-  background-size: auto, cover;
-  background-repeat: repeat, no-repeat;
-}
 
 .hero-logo {
   position: absolute;
@@ -411,7 +402,7 @@ background: #0079bb;
 
 .content-heading.ch-somos {
   height: auto;
-  padding-top: 220px;
+  padding-top: 160px;
   padding-bottom: 160px;
   background-image: -webkit-linear-gradient(270deg, rgba(0, 101, 158, .7) 29%, #003b5c), url('../images/depositphotos_11289451_original.jpg');
   background-image: linear-gradient(180deg, rgba(0, 101, 158, .7) 29%, #003b5c), url('../images/depositphotos_11289451_original.jpg');
@@ -601,7 +592,7 @@ background: #0079bb;
 
 .logo-somos {
   display: block;
-  height: 100px;
+  height: 160px;
   margin-right: auto;
   margin-bottom: 50px;
   margin-left: auto;
@@ -939,6 +930,16 @@ html.w-mod-js *[data-ix="new-interaction"] {
   transform: translate(0px, 0px);
 }
 
+
+@media (max-width: 1140px) {
+
+   .main-link { 
+    padding: 10px 3px;
+    margin-right: 0px;
+  }
+  .main-link-bordered{  padding: 10px 5px; }
+
+}
 @media (max-width: 991px) {
   h2 {
     margin-top: 10px;
@@ -967,7 +968,7 @@ html.w-mod-js *[data-ix="new-interaction"] {
     margin-right: auto;
     margin-left: auto;
     color: #fff;
-    font-size: 15px;
+    font-size: 15px; 
   }
   .main-link.w--current {
     color: #f89224;
@@ -1018,7 +1019,7 @@ html.w-mod-js *[data-ix="new-interaction"] {
     font-size: 13px;
   }
   .slider-content {
-    top: 55%;
+    top: 50%;
     display: block;
     margin-right: auto;
     margin-left: auto;
@@ -1028,7 +1029,7 @@ html.w-mod-js *[data-ix="new-interaction"] {
     line-height: 32px;
   }
   .hero-logo {
-    bottom: 45%;
+    bottom: 53%;
     display: block;
     height: 100px;
     margin-right: auto;
@@ -1205,18 +1206,10 @@ html.w-mod-js *[data-ix="new-interaction"] {
     font-size: 22px;
     line-height: 26px;
   }
-  .slider-3 {
-    background-image: -webkit-linear-gradient(270deg, null, null), url('../images/depositphotos_46261229-Business-people-at-seminar.jpg');
-    background-image: linear-gradient(180deg, null, null), url('../images/depositphotos_46261229-Business-people-at-seminar.jpg');
-    background-position: 0px 0px, 58% 50%;
-  }
-  .slider-4 {
-    background-image: -webkit-linear-gradient(270deg, null, null), url('../images/depositphotos_21219731_original.jpg');
-    background-image: linear-gradient(180deg, null, null), url('../images/depositphotos_21219731_original.jpg');
-    background-position: 0px 0px, 70% 50%;
-  }
+ 
+  
   .hero-logo {
-    height: 80px;
+    height: 90px;
   }
   .slider-text {
     display: none;
@@ -1267,7 +1260,7 @@ html.w-mod-js *[data-ix="new-interaction"] {
     margin-bottom: 10px;
   }
   .logo-somos {
-    height: 80px;
+    height: 130px;
     margin-top: -20px;
     margin-bottom: 30px;
   }
@@ -1406,20 +1399,8 @@ html.w-mod-js *[data-ix="new-interaction"] {
     font-size: 20px;
     line-height: 25px;
   }
-  .slider-1 {
-    background-image: -webkit-linear-gradient(270deg, null, null), url('../images/depositphotos_24652487-Business-Having-Board-Meeting-In-Modern-Office.jpg');
-    background-image: linear-gradient(180deg, null, null), url('../images/depositphotos_24652487-Business-Having-Board-Meeting-In-Modern-Office.jpg');
-    background-position: 0px 0px, 41% 50%;
-  }
-  .slider-2 {
-    background-image: -webkit-linear-gradient(270deg, null, null), url('../images/depositphotos_21186819-Medical-record.jpg');
-    background-image: linear-gradient(180deg, null, null), url('../images/depositphotos_21186819-Medical-record.jpg');
-    background-position: 0px 0px, 50% 50%;
-  }
-  .slider-3 {
-    background-image: -webkit-linear-gradient(270deg, null, null), url('../images/depositphotos_46261229-Business-people-at-seminar.jpg');
-    background-image: linear-gradient(180deg, null, null), url('../images/depositphotos_46261229-Business-people-at-seminar.jpg');
-  }
+ 
+ 
   .client-image {
     height: 80px;
   }
@@ -1431,7 +1412,7 @@ html.w-mod-js *[data-ix="new-interaction"] {
     margin-top: 0px;
   }
   .logo-somos {
-    height: 60px;
+    height: 120px;
   }
   .service {
     padding-right: 0px;

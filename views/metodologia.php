@@ -2,9 +2,9 @@
 <html lang="es">
 <head>
   
-  <title><?php echo $company_name ?> - Metodología </title> 
+  <title><?php echo strip_tags( $company_name) ?> - Metodología </title> 
 
-  <meta property="og:title" name="title" content="<?php echo $company_name ?> - Metodología">
+  <meta property="og:title" name="title" content="<?php echo strip_tags( $company_name) ?> - Metodología">
   <meta property="og:description" name="description"  content="Toda acción formativa persigue la transmisión de determinados contenidos y vivencias.">
   <meta name="twitter:card" content="summary">
 

@@ -2,10 +2,10 @@
 <html lang="es">
 <head>
   
-  <title><?php echo $company_name ?> - Quiénes Somos</title> 
+  <title><?php echo strip_tags($company_name) ?> - Quiénes Somos</title> 
 
-  <meta property="og:title" name="title" content="<?php echo $company_name ?> - Quiénes Somos">
-  <meta property="og:description" name="description"  content=" <?php echo $company_name ?> - , nace en el año 1998, por la iniciativa de un grupo de Ingenieros, Psicólogos Laborales, Auditores y Periodistas comprometidos con una visión interdisciplinaria del trabajo en sistemas organizacionales.">
+  <meta property="og:title" name="title" content="<?php echo strip_tags($company_name) ?> - Quiénes Somos">
+  <meta property="og:description" name="description"  content=" <?php echo strip_tags($company_name) ?> - , nace en el año 1998, por la iniciativa de un grupo de Ingenieros, Psicólogos Laborales, Auditores y Periodistas comprometidos con una visión interdisciplinaria del trabajo en sistemas organizacionales.">
   <meta name="twitter:card" content="summary">
 
   <?php include 'partials/head.php';?>
@@ -16,9 +16,11 @@
 
   <div class="main">
     <div data-ix="new-interaction" class="w-section content-heading ch-somos">
-      <div data-ix="fadein" class="w-container"><img src="/assets/images/footer-logo.png" class="logo-somos">
+      <div data-ix="fadein" class="w-container"><img src="/assets/images/logo-somos.png" class="logo-somos">
         <h1 class="w-hidden-main w-hidden-medium w-hidden-small w-hidden-tiny section-header-title sht-white">Quiénes Somos</h1>
-        <p class="section-subtitle somos"><strong><?php echo $company_name ?></strong>, nace en el año 1998, por la iniciativa de un grupo de Ingenieros, Psicólogos Laborales, Auditores y Periodistas comprometidos con una visión interdisciplinaria del trabajo en sistemas organizacionales</p>
+        <p class="section-subtitle somos">Nace en Agosto de 2011, como producto de la necesidad detectada por sus socios, de contribuir de manera activa a mejorar el nivel de atención en nuestro país.
+Nuestro horizonte es potenciar las habilidades personales y procesos internos de nuestros clientes. Contamos con la capacidad de medir los resultados de nuestras asesorías o capacitaciones en cuanto a su oportunidad y eficacia.
+</p>
         <a href="#politica" data-ix="pulse" class="w-inline-block next-button"></a>
       </div>
     </div>
